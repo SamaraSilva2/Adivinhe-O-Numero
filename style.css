@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --font-family: 'Raleway', serif;
+    --bg-color: #bcf5ff;
+    --primary-color: #170d31;
+}
+
+body {
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    margin: 20px;
+    padding: 10px;
+}
+
+.btn-jogar {
+    background-color: var(--bg-color);
+    padding: 8px 15px;
+    border: 1px var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
