@@ -1,6 +1,6 @@
 # Adivinhe o Número
 
-Projeto da Alura, que consiste em um jogo de adivinnhação de um número dentro de um intervalo pré-definido. A entrada do número pelo usuário ocorre com entreda de voz.
+Projeto da Alura, que consiste em um jogo de adivinnhação de um número dentro de um intervalo pré-definido. A entrada do número pelo usuário ocorre com entrada e reconhecimento de voz.
 
 - Tecnologias usadas: 
 
