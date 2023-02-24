@@ -2,7 +2,7 @@ function verificaValidadeDoChute(chute) {
     const numero = +chute;
     
     if(chuteInvalido(numero)) {
-        messageGuess.innerHTML += '<div>Valor inválido!</div>';
+        messageGuess.innerHTML += "<div>Valor inválido!</div>";
         
         return;
     }
@@ -23,12 +23,12 @@ function verificaValidadeDoChute(chute) {
             <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>
         `
     } else if(numero > numeroSecreto) {
-        elementoChute.innerHTML += `
-            <div >O número secreto é menor <i class="fa-solid fa-arrow-down"></i></div> -->
+        messageGuess.innerHTML += `
+            <div>O número secreto é menor <i class="fa-solid fa-arrow-down"></i></div>
         `;
     } else {
-        elementoChute.innerHTML += `
-            <div >O número secreto é maior <i class="fa-solid fa-arrow-up"></i></div> -->
+        messageGuess.innerHTML += `
+            <div>O número secreto é maior <i class="fa-solid fa-arrow-up"></i></div>
         `;    
     }
 }
@@ -41,8 +41,8 @@ function maiorOuMenorQueOPermitido(numero) {
     return numero > maiorValor || numero < menorValor;
 }
 
-document.body.addEventListener('click', e => {
-    if(e.target.id === 'jogar-novamente') {
+document.body.addEventListener("click", e => {
+    if(e.target.id === "jogar-novamente") {
         window.location.reload();
     }
 })
