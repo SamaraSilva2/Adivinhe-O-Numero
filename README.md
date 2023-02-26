@@ -9,4 +9,4 @@ CSS,
 Uso de API,
 JavaScript.
 
-Algumas coisas foram mudadas em relação ao projeto original, por exemplo, estilizações e nomes de variáveis.
+Algumas coisas foram mudadas em relação ao projeto original, por exemplo, estilizações e nomes de variáveis. Foi adicionada uma instrução de inícialização ao usuário.
